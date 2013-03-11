@@ -57,7 +57,7 @@ footer, header, hgroup, menu, nav, section {
 body {
     line-height: 1;
 }
-ol, ul {
+ul {
     list-style: none;
 }
 blockquote, q {
@@ -701,3 +701,7 @@ a:focus {
     Thanks for reading. I hope you enjoyed it at least as much as I enjoyed writing it
     for you.
 */
+
+.small li{
+  font-size: 20px;
+}
