@@ -6,7 +6,7 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=1024" />
     <meta name="apple-mobile-web-app-capable" content="yes" />
-    <title>impress.js | presentation tool based on the power of CSS3 transforms and transitions in modern browsers | by Bartek Szopka @bartaz</title>
+    <title>Feed Aggregations</title>
     
     <meta name="description" content="impress.js is a presentation tool based on the power of CSS3 transforms and transitions in modern browsers and inspired by the idea behind prezi.com." />
     <meta name="author" content="Bartek Szopka" />
@@ -15,7 +15,7 @@
 
     <link href="css/impress-demo.css" rel="stylesheet" />
     
-    <link rel="shortcut icon" href="favicon.png" />
+    <link rel="shortcut icon" href="https://www.yammer.com/favicon.ico" />
     <link rel="apple-touch-icon" href="apple-touch-icon.png" />
 </head>
 
@@ -45,37 +45,39 @@
     </div>
 
     <div id="" class="step" data-x="1000" data-y="250" data-rotate="47" >
-      <h1>What are they?</h1>
-      <h1>Why do we need them?</h1>
+      <h1>WTF are they?</h1>
+      <h1>WTF do we need them?</h1>
     </div>
 
     <div id="" class="step" data-x="2000" data-y="700" data-rotate="47" >
-    <h1>We wanted to keep track of interesting aggregations and surface them in the Featured Feed, then see how it would affect engagement.</h1>
+    We wanted to keep track of interesting aggregations and surface them in the Featured Feed, then see how it would affect engagement.
     </div>
 
     <div id="" class="step" data-x="3000" data-y="900" data-rotate="47" >
       What sort of aggregations?
-      <br>Actions on files, notes, groups, users or apps
     </div>
 
-    <div id="" class="step" data-x="3000" data-y="1100" data-rotate="47" >
+    <div id="" class="step" data-x="3000" data-y="1900" data-rotate="47" >
+      Actions on files, notes, groups, users or apps
+    </div>
+
+    <div id="" class="step" data-x="3000" data-y="2900" data-rotate="47" >
     For this iteration, We settled on file views and downloads, and notes viewed.
     </div>
 
-    <div id="" class="step" data-x="3000" data-y="1400" data-rotate="47" >
+    <div id="" class="step" data-x="3000" data-y="3900" data-rotate="47" >
     What's the Selection criteria for an activity feed aggregation?
     </div>
 
-    <div id="" class="step" data-x="3000" data-y="1400" data-rotate="47" >
-    At least one actor has to be a followee OR the user should be following the object. <br>There should be at least two actors in a network who have taken the same action on the object
+    <div id="" class="step" data-x="4000" data-y="4900" data-rotate="47" >
+    At least one actor has to be a followee OR the user should be following the object. <hr/>There should be at least two actors in a network who have taken the same action on the object
     </div>
 
-    <div id="" class="step" data-x="3000" data-y="1400" data-rotate="47" >
+    <div id="" class="step" data-x="5000" data-y="5900" data-rotate="47" >
       How about a 1-slide lightning round backend tech overview?
-      <!--<br/><img align="middle" src="https://geoffreymoller-collect.s3.amazonaws.com/2012/9/22/teBaO.gif">-->
     </div>
 
-    <div id="" class="step" data-x="3000" data-y="1600" data-rotate="47" >
+    <div id="" class="step" data-x="2000" data-y="6900" data-rotate="47" >
       <img style="width: 450px; height: 299px;" src="https://docs.google.com/a/yammer-inc.com/drawings/d/shMp4z1nO3vppjQrgyip6mw/image?w=450&amp;h=299&amp;rev=73&amp;ac=1">
       <ol class="small">
         <li>Workfeed generates activity stories which are sent to Streamie</li>
@@ -89,20 +91,20 @@
       </ol>
     </div>
 
-    <div id="" class="step" data-x="3000" data-y="1400" data-rotate="47" >
+    <div id="" class="step" data-x="4000" data-y="5900" data-rotate="47" >
       What does the client see?
     </div>
 
-    <div id="" class="step" data-x="3000" data-y="1400" data-rotate="47" >
+    <div id="" class="step" data-x="5000" data-y="4900" data-rotate="47" >
       /api/v1/messages/algo.json<br/>
       <img src="https://www.yammer.com/microsoft.com/api/v1/uploaded_files/9443829/version/7823383/preview/algo_feed_with_activities.gif">
     </div>
 
-    <div id="" class="step" data-x="3000" data-y="1400" data-rotate="47" >
+    <div id="" class="step" data-x="6000" data-y="4900" data-rotate="47" >
       What did we have to do to yam.js? 
     </div>
 
-    <div id="" class="step" data-x="3000" data-y="1400" data-rotate="47" >
+    <div id="" class="step" data-x="7000" data-y="4900" data-rotate="47" >
       <ol class="small">
         <li><a target="_blank" href="https://github.com/yammer/yamjs/blob/master/models/lib/domain.js#L208">On payload, aggergate activities with messages and add them to the ORM</a></h1>
         <li><a target="_blank" href="https://github.com/yammer/yamjs/blob/master/models/lib/domain.js#L242">Add attachments to the ORM for the referenced subjects</a></h1>
@@ -115,53 +117,38 @@
       </ol>
     </div>
 
-    <div id="" class="step" data-x="3000" data-y="1400" data-rotate="47" >
-      What are the limitations of this approach? 
+    <div id="" class="step" data-x="8000" data-y="4900" data-rotate="47" >
+      What do we get?
     </div>
 
-    <!--
-    <div id="title" class="step" data-x="0" data-y="0" >
-        <span class="try">then you should try</span>
-        <h1>impress.js<sup>*</sup></h1>
-        <span class="footnote"><sup>*</sup> no rhyme intended</span>
+    <div id="" class="step" data-x="9000" data-y="4900" data-rotate="47" >
+      <img src="https://www.staging.yammer.com/yammer-inc.com/api/v1/uploaded_files/398844/version/591489/preview/feedagg_note.png"/>
     </div>
 
-    <div id="its" class="step" data-x="850" data-y="3000" >
-        <p>It's a <strong>presentation tool</strong> <br/>
-        inspired by the idea behind <a href="http://prezi.com">prezi.com</a> <br/>
-        and based on the <strong>power of CSS3 transforms and transitions</strong> in modern browsers.</p>
+    <div id="" class="step" data-x="10000" data-y="4900" data-rotate="47" >
+      <img src="https://www.staging.yammer.com/yammer-inc.com/api/v1/uploaded_files/398843/version/591488/preview/feedagg_image.png"/>
     </div>
 
-    <div id="big" class="step" data-x="3500" data-y="2100" data-rotate="180">
-        <p>visualize your <b>big</b> <span class="thoughts">thoughts</span></p>
+    <div id="" class="step" data-x="11000" data-y="4900" data-rotate="47" >
+      How did we do?
     </div>
 
-    <div id="tiny" class="step" data-x="2825" data-y="2325" data-z="-3000" data-rotate="300">
-        <p>and <b>tiny</b> ideas</p>
+    <div id="" class="step" data-x="12000" data-y="4900" data-rotate="47" >
+    <span style="font-size: 25px; line-height: 30px;">For <strong>new users</strong>, small but significant drop in:
+      <ul style="margin-left: 60px">
+        <li>1-day retention</li> 
+        <li>7-day retention</li> 
+        <li>Days engaged</li> 
+        <li>Posting metrics</li> 
+      </ul>   
+      Small drop in days engaged for all users.
+      <br/>
+      <img src="https://geoffreymoller-collect.s3.amazonaws.com/2012/8/30/9uPHz.gif" /><br/>
     </div>
 
-    <div id="ing" class="step" data-x="3500" data-y="-850" data-rotate="270" >
-        <p>by <b class="positioning">positioning</b>, <b class="rotating">rotating</b> and <b class="scaling">scaling</b> them on an infinite canvas</p>
+    <div id="" class="step" data-x="13000" data-y="4900" data-rotate="47" >
+    Thank You
     </div>
-
-    <div id="imagination" class="step" data-x="6700" data-y="-300" >
-        <p>the only <b>limit</b> is your <b class="imagination">imagination</b></p>
-    </div>
-
-    <div id="source" class="step" data-x="6300" data-y="2000" data-rotate="20" >
-        <p>want to know more?</p>
-        <q><a href="http://github.com/bartaz/impress.js">use the source</a>, Luke!</q>
-    </div>
-
-    <div id="one-more-thing" class="step" data-x="6000" data-y="4000" >
-        <p>one more thing...</p>
-    </div>
-
-    <div id="its-in-3d" class="step" data-x="6200" data-y="4300" data-z="-100" data-rotate-x="-40" data-rotate-y="10" >
-        <p><span class="have">have</span> <span class="you">you</span> <span class="noticed">noticed</span> <span class="its">it's</span> <span class="in">in</span> <b>3D<sup>*</sup></b>?</p>
-        <span class="footnote">* beat that, prezi ;)</span>
-    </div>
-    -->
 
     </div>
 
